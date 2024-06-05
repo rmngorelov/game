@@ -266,5 +266,5 @@ document.addEventListener('DOMContentLoaded', () => {
             alert("Game over. The enemies have reached the bottom.");
             clearInterval(moveEnemiesInterval);
         }
-    }, 50); // Decrease this value to make the updates more frequent
+    }, 1); // Decrease this value to make the updates more frequent
 });
