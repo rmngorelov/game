@@ -266,5 +266,5 @@ document.addEventListener('DOMContentLoaded', () => {
             alert("Game over. The enemies have reached the bottom.");
             clearInterval(moveEnemiesInterval);
         }
-    }, 50); // Adjust this value to control the rate of fall
+    }, 10); // Adjust this value to control the rate of fall
 });
