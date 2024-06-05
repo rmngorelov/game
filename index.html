@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="difficulty-screen">
+        <h1>Select Difficulty</h1>
+        <button id="normal" class="selected">Normal</button>
+        <button id="medium">Medium</button>
+        <button id="hard">Hard</button>
+        <p>Press Space or Enter to start</p>
+    </div>
+    <div id="game-screen" style="display:none;">
+        <div id="game">
+            <div id="player"></div>
+        </div>
+    </div>
+    <div id="game-over" style="display:none;">
+        <div class="overlay">
+            <h1>Give Roman a raise!</h1>
+        </div>
+    </div>
+    <audio id="shoot-sound" src="shoot.mp3"></audio>
+    <audio id="explosion-sound" src="explosion.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
