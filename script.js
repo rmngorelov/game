@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
             direction *= -1;
             enemies.forEach((enemy) => {
                 let enemyY = parseInt(enemy.style.top);
-                enemy.style.top = enemyY + 10 + 'px'; // Smaller vertical increment
+                enemy.style.top = enemyY + 100 + 'px'; // Smaller vertical increment
             });
         }
 
@@ -266,5 +266,5 @@ document.addEventListener('DOMContentLoaded', () => {
             alert("Game over. The enemies have reached the bottom.");
             clearInterval(moveEnemiesInterval);
         }
-    }, 100); // Adjust this value to control the rate of fall
+    }, 10); // Adjust this value to control the rate of fall
 });
