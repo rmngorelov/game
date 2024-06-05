@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
             direction *= -1;
             enemies.forEach((enemy) => {
                 let enemyY = parseInt(enemy.style.top);
-                enemy.style.top = enemyY + 50 + 'px'; // Increase this value to make the enemies fall faster
+                enemy.style.top = enemyY + 20 + 'px'; // Increase this value to make the enemies fall faster
             });
         }
 
