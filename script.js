@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
             direction *= -1;
             enemies.forEach((enemy) => {
                 let enemyY = parseInt(enemy.style.top);
-                enemy.style.top = enemyY + 100 + 'px'; // Vertical increment, increase to increase rate of fall
+                enemy.style.top = enemyY + 50 + 'px'; // Vertical increment, increase to increase rate of fall
             });
         }
 
